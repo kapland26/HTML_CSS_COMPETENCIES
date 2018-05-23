@@ -2,27 +2,53 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.box-one{
+  height: 50px;
+  width: 100px;
+  background-color: hsl(0, 100%, 50%);
+  margin: auto;
+  position: fixed;
+  padding: 10px;
+  margin: 10px;
+  border-style: dotted;
+  border-width: 5px;
+}
+
+.box-two{
   height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  width: 120px;
   color: white;
+  font-weight:700;
+  font-size: 15px;
+  background-image: url("http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_iStock-478639870_16x9.jpg?itok=1-jMc4Xv");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 10px;
+  left: 150px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.box-two h1{
+  float: right;
 }
 
-.App-intro {
-  font-size: large;
+.box-three{
+  height: 80px;
+  width: 300px;
+  background-color: blue;
+  position: relative;
+  left:280px;
+  top: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+.box-three > .elem{
+  height: 20px;
+  width: 20px;
+  background: yellow;
+}
+.box-three :last-child{
+  background: orangered;
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
