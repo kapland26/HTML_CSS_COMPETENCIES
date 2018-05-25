@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './box1_3.css';
 import './box4_6.css';
+import './media_query.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
         <div className="box-one">
           Div 1
+          <input />
         </div>
 
         <div className="box-two">
@@ -20,14 +23,37 @@ class App extends Component {
           <div className="elem"/>
         </div>
 
+        <article>
+          <h1>DENIZS COMPETENCIES</h1>
+        </article>
+
+        <section>
+          <h2> About: This is a frankenstein app with (most of) Deniz's HTML/CSS competencies </h2>
+        </section>
+
         <div id="box-four">
           <span>Div 4</span>
+          <ul>
+            <li> 1</li>
+            <li> 2</li>
+            <li> <a href="https://nauxpas.com/#/"> Link</a></li>
+          </ul>
         </div>
 
         <div className="box-five">
           <p>Div 5</p>
+          <input disabled/>
         </div>
-      </div>
+
+        <div className="box-six">
+          <div className="grid-component"/>
+          <div className="grid-component"/>
+          <div className="grid-component"> Div 6 </div>
+          <div className="grid-component"/>
+          <div className="grid-component"/>
+          <div className="grid-component"/>
+        </div>
+      </div>      
     );
   }
 }

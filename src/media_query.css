@@ -1,0 +1,15 @@
+@media(min-width:800px) {
+    .box-six{
+        display: flex;
+    }
+}
+@media(min-width:800px){
+    .box-six{
+        display: none;
+    }
+
+}
+
+section{
+    font-size: 9px;
+}
