@@ -8,6 +8,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <nav>
+            <li> Home </li>
+            <li> Page 1 </li>
+            <li> Page 2 </li>
+        </nav>
+
         <div className="box-one">
           Div 1
           <input aria-describedby="enabled-input" />
@@ -46,13 +52,17 @@ class App extends Component {
         </div>
 
         <div className="box-six">
-          <div className="grid-component"> <img src="https://images-na.ssl-images-amazon.com/images/I/51zLZbEVSTL._SY355_.jpg" alt="smiley face" height="42" width="42"/> </div>
+          <div className="grid-component"> <img src="https://images-na.ssl-images-amazon.com/images/I/51zLZbEVSTL._SY355_.jpg" alt="smiley face COPMETENCY" height="42" width="42"/> </div>
           <div className="grid-component"/>
           <div className="grid-component"> Div 6 </div>
           <div className="grid-component" />
           <div className="grid-component"/>
           <div className="grid-component"/>
         </div>
+        
+        <footer><br/><br/>
+          ------------------------- Here is a footer! ------------------------ ℗ Deniz Kaplan
+        </footer>
       </div>      
     );
   }

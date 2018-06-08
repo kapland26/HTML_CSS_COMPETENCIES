@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+nav{
+  height: 50px;
+  background: tan;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .box-one{
   height: 50px;
   width: 100px;
@@ -32,7 +41,7 @@ input:disabled {
   background-image: url("http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_iStock-478639870_16x9.jpg?itok=1-jMc4Xv");
   background-size: 100% 100%;
   position: absolute;
-  top: 10px;
+  top: 60px;
   left: 150px;
 }
 
